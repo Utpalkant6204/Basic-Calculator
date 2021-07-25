@@ -13,7 +13,7 @@ body {
 
 .he {
   text-align: center;
-  margin-top: 8%;
+  margin-top: 6%;
 }
 
 .calculator {
@@ -58,7 +58,7 @@ button {
 }
 
 button:active {
-  background-color: rgb(5, 214, 186);
+  background-color: rgb(241, 3, 3);
 }
 
 .c {
@@ -66,7 +66,18 @@ button:active {
   color: white;
 }
 
-.d {
+.d,
+.operator {
   background-color: rgb(43, 49, 43);
+  color: white;
+}
+
+.e {
+  background-color: rgb(250, 125, 9);
+  color: white;
+}
+
+.f {
+  background-color: rgb(13, 243, 44);
   color: white;
 }
